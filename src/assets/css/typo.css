@@ -6,13 +6,13 @@
 */
 
 .fcw {
-  color: var(--fc-w);
+  color: var(--fg-w);
 }
 .fc {
-  color: var(--fc);
+  color: var(--fg);
 }
 .fcs {
-  color: var(--fc-s);
+  color: var(--fg-s);
 }
 
 .e1,
