@@ -9,6 +9,7 @@
 @import './typo.css';
 @import './theme.css';
 @import './fixed.css';
+@import './layout.css';
 @import '../fonts/fonts.css';
 
 :root {
@@ -32,21 +33,4 @@
 
 #root {
   background-color: var(--bg-body);
-}
-
-.ov-a {
-  overflow: auto;
-}
-.ov-a::-webkit-scrollbar {
-  /*width: 4px;*/
-  width: 0;
-  height: 4px;
-}
-.ov-a::-webkit-scrollbar-thumb {
-  background-color: var(--scroll);
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-}
-.ov-a::-webkit-scrollbar-track {
-  background-color: transparent;
 }
