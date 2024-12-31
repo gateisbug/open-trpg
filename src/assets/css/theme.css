@@ -1,45 +1,71 @@
 :root {
-  --primary: #ffb74d; /* primary color */
-  --on-primary: #1c2025; /* font color : on primary colored background */
-  --primary-hover: #b28035; /* primary color : if hovered */
-  --surface-main: #0f1924; /* background accent */
-}
+  --primary: #ffb74d;
+  --on-primary: #1c2025;
+  --primary-hover: #b28035;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --link: #006bd6; /* link color */
-    --link-lc: #66b3ff;
-    --link-bc: #ebf5ff;
+  --warn: #ffc107;
+  --warn-hover: #e6ac00;
+  --safe: #43a047;
+  --safe-hover: #388e3c;
+  --info: #42a5f5;
+  --info-hover: #1e88e5;
+  --danger: #e53935;
+  --danger-hover: #c62828;
 
-    --scroll: #686868;
-    --surface: #f7f7f7; /* background default */
+  --scroll: #686868;
+  --loader-color: var(--primary);
 
-    --fc-s: #101418; /* font color strong */
-    --fc: #1c2025; /* font color normal */
-    --fc-w: #999999; /* font color weak */
+  --fg: #d1d7e0; /* Default Font Color */
+  --fg-s: #fff; /* Strong Font Color */
+  --fg-w: #9198a1; /* Weak Font Color */
+  --fg-link: #4493f8; /* Link Font Color */
+  --fg-muted: #9198a1;
 
-    --lc-w: #00000014; /* border color weak */
-    --lc: #0000003a; /* border color normal */
+  --bg-null: #000; /* Null Background Color */
+  --bg-body: #0d1117; /* Body Background Color */
+  --bg-default: #151b23; /* Layout Background Color */
+  --bg-inset: #010409; /* Top Layout Background Color */
+  --bg-muted: #151b23;
 
-    --bc: #f4f5f7; /*  */
-  }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --link: #66b3ff; /* link color */
-    --link-lc: #0061c2;
-    --link-bc: #003b75;
+  --lc: #3d444d; /* border color normal */
+  --lc-w: #656c76; /* border color weak */
+  --lc-s: #f0f6fc; /* border color strong */
+  --lc-muted: #3d444db3;
 
-    --scroll: #686868;
-    --surface: #101418; /* background default */
+  /*@media (prefers-color-scheme: light) {*/
+  /*  --fg: #1f2328; !* Default Font Color *!*/
+  /*  --fg-s: #25292e; !* Strong Font Color *!*/
+  /*  --fg-w: #59636e; !* Weak Font Color *!*/
+  /*  --fg-link: #0969da; !* Link Font Color *!*/
+  /*  --fg-muted: #59636e;*/
 
-    --fc-s: #f3f6f9; /* font color strong */
-    --fc: #b0b8c4; /* font color normal */
-    --fc-w: #777777; /* font color weak */
+  /*  --bg-null: #fff; !* Null Background Color *!*/
+  /*  --bg-body: #f1f1f2; !* Body Background Color *!*/
+  /*  --bg-default: #f3f3f4; !* Layout Background Color *!*/
+  /*  --bg-inset: #101010; !* Top Layout Background Color *!*/
+  /*  --bg-muted: #f6f8fa;*/
 
-    --lc-w: #ffffff14; /* border color weak */
-    --lc: #ffffff3a; /* border color normal */
+  /*  --lc-w: #818b98; !* border color weak *!*/
+  /*  --lc: #d1d9e0; !* border color normal *!*/
+  /*  --lc-s: #f6f8fa; !* border color strong *!*/
+  /*  --lc-muted: #d1d9e0b3;*/
+  /*}*/
+  /*@media (prefers-color-scheme: dark) {*/
+  /*  --fg: #d1d7e0; !* Default Font Color *!*/
+  /*  --fg-s: #fff; !* Strong Font Color *!*/
+  /*  --fg-w: #9198a1; !* Weak Font Color *!*/
+  /*  --fg-link: #4493f8; !* Link Font Color *!*/
+  /*  --fg-muted: #9198a1;*/
 
-    --bc: #262a32; /*  */
-  }
+  /*  --bg-null: #000; !* Null Background Color *!*/
+  /*  --bg-body: #0d1117; !* Body Background Color *!*/
+  /*  --bg-default: #151b23; !* Layout Background Color *!*/
+  /*  --bg-inset: #010409; !* Top Layout Background Color *!*/
+  /*  --bg-muted: #151b23;*/
+
+  /*  --lc: #3d444d; !* border color normal *!*/
+  /*  --lc-w: #656c76; !* border color weak *!*/
+  /*  --lc-s: #f0f6fc; !* border color strong *!*/
+  /*  --lc-muted: #3d444db3;*/
+  /*}*/
 }
